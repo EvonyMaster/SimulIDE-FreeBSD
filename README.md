@@ -33,7 +33,7 @@ The project began with a simple objective:
 
 The result is an installation managed by the native FreeBSD package ecosystem, with Qt dependencies resolved by `pkg`, application data placed in the standard filesystem hierarchy, and desktop integration provided through XDG application and icon infrastructure.
 
-This work was carried out by **AnOnYmOuS**, with development, debugging, reverse-engineering of the build system and packaging assistance from **ChatGPT**.
+This work was carried out by **Florin Mitroi**, with development, debugging, reverse-engineering of the build system and packaging assistance from **ChatGPT**.
 
 This repository is **not affiliated with or maintained by the official SimulIDE project**.
 
