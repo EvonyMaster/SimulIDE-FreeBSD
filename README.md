@@ -89,6 +89,49 @@ The resulting package includes:
 
 ---
 
+## Download & Install
+
+### Binary package
+
+A pre-built FreeBSD package is available from the project's GitHub Releases:
+
+**[Download SimulIDE 1.1.0-SR2 for FreeBSD amd64](https://github.com/EvonyMaster/SimulIDE-FreeBSD/releases/latest/download/simulide-1.1.0.pkg)**
+
+The package is intended for:
+
+```text
+FreeBSD 15.x
+amd64
+```
+
+Install the downloaded package with:
+
+```sh
+sudo pkg install ./simulide-1.1.0.pkg
+```
+
+`pkg` will resolve the required Qt 5 runtime dependencies automatically.
+
+### Build from source
+
+The FreeBSD Port is also included in this repository:
+
+```sh
+cd freebsd/ports/simulide
+make package
+```
+
+The generated package will be available at:
+
+```text
+work/pkg/simulide-1.1.0.pkg
+```
+
+This project therefore provides both a **ready-to-install package** and the **FreeBSD packaging infrastructure used to build it**.
+
+> The direct download link becomes active once the package is published as an asset of the latest GitHub Release.
+
+
 ## Installation
 
 Build the package from the FreeBSD Port:
