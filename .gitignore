@@ -1,0 +1,16 @@
+# Build output
+build_XX/
+
+# Local Qt tool aliases
+qt-bin/
+
+# Generated Qt translations
+resources/qm/*.qm
+
+# Editor / temporary files
+*~
+*.swp
+*.swo
+
+# SimulIDE runtime backup
+backup.sim1
