@@ -16,3 +16,9 @@ Install:
 ```sh
 sudo pkg install ./work/pkg/simulide-1.1.0.pkg
 ```
+
+## Licenses
+
+SimulIDE source code: GNU AGPL-3.0 (`COPYING`).
+
+FreeBSD packaging and integration files: BSD 3-Clause (`LICENSE-BSD-3-Clause.txt`).
