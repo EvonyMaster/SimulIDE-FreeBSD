@@ -14,3 +14,5 @@ resources/qm/*.qm
 
 # SimulIDE runtime backup
 backup.sim1
+freebsd/ports/*/work/
+freebsd/ports/*/*.pkg

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=SimulIDE
+Comment=Real-time electronic circuit simulator and MCU IDE
+Exec=/usr/local/bin/simulide
+Terminal=false
+Categories=Education;Development;Electronics;
