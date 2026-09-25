@@ -1,3 +1,5 @@
+![SimulIDE for FreeBSD](assets/simulide.webp)
+
 # SimulIDE for FreeBSD
 
 FreeBSD port of SimulIDE 1.1.0-SR2, tested on FreeBSD 15.1 amd64.
